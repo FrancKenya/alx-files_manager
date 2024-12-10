@@ -11,7 +11,8 @@ class DBClient {
     this.databaseName = database;
 
     // Establish the connection asynchronously
-    this.connectionPromise = this.connect(url);  }
+    this.connectionPromise = this.connect(url);
+ }
 
   async connect(url) {
     try {
