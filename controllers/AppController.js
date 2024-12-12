@@ -1,5 +1,5 @@
-const dbClient = require('../utils/db');
-const redisClient = require('../utils/redis');
+import dbClient from '../utils/db';
+import redisClient from '../utils/redis';
 
 class AppController {
   static getStatus(req, res) {
@@ -15,3 +15,4 @@ class AppController {
   }
 }
 
+export default AppController;
